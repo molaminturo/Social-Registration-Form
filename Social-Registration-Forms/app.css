@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap");
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: hsl(0, 100%, 74%);
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.h1-p {
+  display: block;
+  align-items: center;
+  padding-left: 80px;
+  position: relative;
+  bottom: 26px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 45px;
+  color: white;
+  font-size: xx-large;
+  font-weight: 900;
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.paragraphs-1 {
+  font-size: small;
+  color: whitesmoke;
+}
+
+.content {
+  display: block;
+}
+
+.input-1 {
+  margin-left: 0px;
+  padding-bottom: 18px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border-style: solid;
+  border: none;
+  background-color: hsl(248, 32%, 49%);
+  width: 400px;
+  position: relative;
+  top: 43px;
+  left: 60px;
+}
+
+section a {
+  position: relative;
+  transform: translateX(50%) translateY(-50%);
+  right: 42%;
+  top: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: small;
+  position: relative;
+  top: 52px;
+}
+
+section a strong {
+  font-weight: 800;
+  font-family: "Special Gothic Expanded One", sans-serif;
+}
+
+.input-border {
+  background-color: #ffffff;
+  border-radius: 10px;
+  position: relative;
+  top: 45px;
+  left: 60px;
+  width: 400px;
+  height: 310px;
+  margin-top: 20px;
+  margin-top: 5px;
+  padding-top: 30px;
+  padding-right: px;
+}
+
+.input-group {
+  display: block;
+  margin-left: 10px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 100px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  width: 250px;
+  position: relative;
+  top: 1px;
+  border-radius: 5px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-size: x-small;
+  transform: translateX(50%) translateY(-10%);
+  right: 16%;
+  font-weight: 600;
+}
+
+.input-2 {
+  margin-left: 12px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-top: 45px;
+  margin-bottom: 10px;
+  width: 251px;
+  background-color: hsl(154, 59%, 51%);
+  border-radius: 5px;
+  border: none;
+  position: relative;
+  transform: translateX(40%) translateY(-0%);
+  left: 3%;
+  bottom: 80px;
+}
+
+.prize {
+  position: relative;
+  transform: translateX(50%) translateY(-50%);
+  right: 13%;
+  bottom: 80px;
+  color: white;
+  text-decoration: none;
+  font-size: x-small;
+  font-weight: 600;
+  font-family: "Special Gothic Expanded One", sans-serif;
+}
+
+.paragraphs-2 {
+  font-size: xx-small;
+  position: relative;
+  bottom: 80px;
+  transform: translateX(50%) translateY(-50%);
+  right: 32%;
+  font-weight: 600;
+  font-family: "Special Gothic Expanded One", sans-serif;
+}
+
+.paragraphs-2 a {
+  text-decoration: none;
+  color: tomato;
+  font-weight: 700;
+}
